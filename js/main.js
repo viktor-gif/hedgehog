@@ -7,11 +7,11 @@ let hedg = document.getElementById('hedgehog');
 function animateHedg() {
     hedg.animate([
         {
-            top: Math.random() * window.innerHeight + 'px',
+            top: (Math.random() * window.innerHeight - 200) + 'px',
             left: '-300px'
         },
         {
-            top: Math.random() * window.innerHeight + 'px',
+            top: (Math.random() * window.innerHeight - 200) + 'px',
             left: window.innerWidth + 'px'
         }
     ], {
