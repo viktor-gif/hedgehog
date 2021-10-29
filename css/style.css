@@ -211,6 +211,24 @@
     background-color: #fff;
     overflow: hidden;
   }
+
+
+  .hedgehog__wait {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #023112 23%, #1aaf33 46%, #bfe760);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: block;
+    margin: 100px auto;
+  }
+  .hedgehog__wait_remove {
+    display: none;
+  }
   
   
   @keyframes hedgehogMove {
